@@ -1,0 +1,13 @@
+{
+  "name": "seu-personal-digital",
+  "version": "1.0.0",
+  "description": "Personal digiltal",
+  "main": "eliptico.html",
+  "scripts": {
+    "build": "tailwindcss build src/styles.css -o dist/styles.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  },
+  "author": "Otavio Senne"
+}
