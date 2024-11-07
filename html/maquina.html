@@ -16,11 +16,17 @@
     
     <!-- Lista de Exercícios com Divisores -->
     <div class="space-y-4 w-full">
-      <div class="flex items-center py-3 border-t-2 border-Personal-50 gap-4">
-        <span class="text-2xl">↓</span> <span class="font-k2d text-2xl">Costas</span>
+      <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4">
+        <div class="flex gap-4"  onmouseover="mostrarIframe('iframe-costas')">
+          <span class="text-2xl">↓</span>
+          <span class="font-k2d text-2xl">Costas</span>
+        </div>
+        <div class="duration-200 invisible hidden" id="iframe-costas">
+          <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/8o93NTil_es?si=_oNbtja-vJEaQip3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
         
       </div>
-      <div class="flex items-center py-3 border-t-2 border-Personal-50 gap-4">
+      <div class="flex py-3 border-t-2 border-Personal-50 gap-4">
         <span class="text-2xl">↓</span> <span class="font-k2d text-2xl">Peito</span>
       </div>
       <div class="flex items-center py-3 border-t-2 border-Personal-50 gap-4">
@@ -33,6 +39,8 @@
         <span class="text-2xl">↓</span> <span class="font-k2d text-2xl">Ombro</span>
       </div>
     </div>
+
+    <script src="../scripts/maquina.js"></script>
 
   </body>
 </html>   
