@@ -16,28 +16,84 @@
     
     <!-- Lista de Exercícios com Divisores -->
     <div class="space-y-4 w-full">
-      <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4">
-        <div class="flex gap-4"  onmouseover="mostrarIframe('iframe-costas')">
+      <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4" onmouseout="esconderIframe('iframe-costas')">
+        <div class="flex gap-4"  onmouseover="mostrarIframe('iframe-costas')" >
           <span class="text-2xl">↓</span>
           <span class="font-k2d text-2xl">Costas</span>
         </div>
-        <div class="duration-200 invisible hidden" id="iframe-costas">
+        <div class="flex-col duration-200 invisible hidden gap-6" id="iframe-costas">
           <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/8o93NTil_es?si=_oNbtja-vJEaQip3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/LuqyyE3kmrI?si=6TpLGKDgCJTBWam_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/caC_Rlsf5IA?si=una6I8dnfHPwWO3b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/8o93NTil_es?si=Nr6ONNAsUEiaUE4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4">
+        <div class="flex gap-4"  onmouseover="mostrarIframe('iframe-peito')" onmouseout="esconderIframe('iframe-peito')">
+          <span class="text-2xl">↓</span>
+          <span class="font-k2d text-2xl">Peito</span>
+        </div>
+        <div class="flex-col duration-200 invisible hidden gap-6" id="iframe-peito">
+          <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/xxpCrZLwgh4?si=BonXrvBg5sWBpbch" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/YIDdzec9vVY?si=XEa5HnUJhZOxgvTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         
       </div>
-      <div class="flex py-3 border-t-2 border-Personal-50 gap-4">
-        <span class="text-2xl">↓</span> <span class="font-k2d text-2xl">Peito</span>
+      <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4">
+        <div class="flex gap-4"  onmouseover="mostrarIframe('iframe-biceps')" onmouseout="esconderIframe('iframe-biceps')">
+          <span class="text-2xl">↓</span>
+          <span class="font-k2d text-2xl">Biceps</span>
+        </div>
+        <div class="flex-col duration-200 invisible hidden gap-6" id="iframe-biceps">
+          <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/iBptuIJ_GkU?si=rYHwIp224VKSvQXB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe class="w-full max-w-96 h-screen rounded-2xl"  src="https://www.youtube.com/embed/tSSwD4UVaig?si=9rqtRmZkjQ4WmHMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
       </div>
-      <div class="flex items-center py-3 border-t-2 border-Personal-50 gap-4">
-        <span class="text-2xl">↓</span> <span class="font-k2d text-2xl">Biceps</span>
+      <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4">
+        <div class="flex gap-4"  onmouseover="mostrarIframe('iframe-triceps')" onmouseout="esconderIframe('iframe-triceps')">
+          <span class="text-2xl">↓</span>
+          <span class="font-k2d text-2xl">Triceps</span>
+        </div>
+        <div class="flex-col duration-200 invisible hidden gap-6" id="iframe-triceps">
+          <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/pQFaAmm37so?si=aFrxrCgjYunHbwXb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/KWAFqr_TFew?si=LD-_iEs_Ar88DUPz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/SwIcjA888zs?si=f_aSymmIGscAH266" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/1Y4riLFyjrA?si=wnh5RGfF274Gf1yH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
       </div>
-      <div class="flex items-center py-3 border-t-2 border-Personal-50 gap-4">
-        <span class="text-2xl">↓</span> <span class="font-k2d text-2xl">Triceps</span>
+      <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4">
+        <div class="flex gap-4"  onmouseover="mostrarIframe('iframe-abdomen')" onmouseout="esconderIframe('iframe-abdomen')">
+          <span class="text-2xl">↓</span>
+          <span class="font-k2d text-2xl">Abdomen</span>
+        </div>
+        <div class="flex-col duration-200 invisible hidden gap-6" id="iframe-abdomen">
+          <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/RDW6xQyHuSQ?si=QbP8yEv04yd2IlGS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
       </div>
-      <div class="flex items-center py-3 border-t-2 border-Personal-50 gap-4">
-        <span class="text-2xl">↓</span> <span class="font-k2d text-2xl">Ombro</span>
+      <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4">
+        <div class="flex gap-4"  onmouseover="mostrarIframe('iframe-perna')" onmouseout="esconderIframe('iframe-perna')">
+          <span class="text-2xl">↓</span>
+          <span class="font-k2d text-2xl">Perna</span>
+        </div>
+        <div class="flex-col duration-200 invisible hidden gap-6" id="iframe-perna">
+          <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/ftUBtgJ1ZK8?si=dBQv-9rRz9ceP1IK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/HX-lRSWSMCY?si=rPjkDTBCQvc9iUPi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
       </div>
+      <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4">
+        <div class="flex gap-4"  onmouseover="mostrarIframe('iframe-ombro')" onmouseout="esconderIframe('iframe-ombro')">
+          <span class="text-2xl">↓</span>
+          <span class="font-k2d text-2xl">Ombro</span>
+        </div>
+        <div class="flex-col duration-200 invisible hidden gap-6" id="iframe-ombro">
+          <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/fxv-z1ILgPQ?si=vqBbdC0e_nnFtmTP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
+      </div>
+      
     </div>
 
     <script src="../scripts/maquina.js"></script>
