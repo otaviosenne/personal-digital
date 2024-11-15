@@ -16,8 +16,8 @@
     
     <!-- Lista de Exercícios com Divisores -->
     <div class="space-y-4 w-full">
-      <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4" onmouseout="esconderIframe('iframe-costas')">
-        <div class="flex gap-4"  onmouseover="mostrarIframe('iframe-costas')" >
+      <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4" >
+        <div class="flex gap-4"  onclick="mostrarIframe('iframe-costas'); esconderIframe('iframe-peito', 'iframe-biceps', 'iframe-triceps', 'iframe-abdomen', 'iframe-perna', 'iframe-ombro')" >
           <span class="text-2xl">↓</span>
           <span class="font-k2d text-2xl">Costas</span>
         </div>
@@ -29,7 +29,7 @@
         </div>
       </div>
       <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4">
-        <div class="flex gap-4"  onmouseover="mostrarIframe('iframe-peito')" onmouseout="esconderIframe('iframe-peito')">
+        <div class="flex gap-4"  onclick="mostrarIframe('iframe-peito'); esconderIframe('iframe-costas', 'iframe-biceps', 'iframe-triceps', 'iframe-abdomen', 'iframe-perna', 'iframe-ombro')">
           <span class="text-2xl">↓</span>
           <span class="font-k2d text-2xl">Peito</span>
         </div>
@@ -40,7 +40,7 @@
         
       </div>
       <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4">
-        <div class="flex gap-4"  onmouseover="mostrarIframe('iframe-biceps')" onmouseout="esconderIframe('iframe-biceps')">
+        <div class="flex gap-4"  onclick="mostrarIframe('iframe-biceps'); esconderIframe('iframe-costas', 'iframe-peito', 'iframe-triceps', 'iframe-abdomen', 'iframe-perna', 'iframe-ombro')">
           <span class="text-2xl">↓</span>
           <span class="font-k2d text-2xl">Biceps</span>
         </div>
@@ -51,7 +51,7 @@
         
       </div>
       <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4">
-        <div class="flex gap-4"  onmouseover="mostrarIframe('iframe-triceps')" onmouseout="esconderIframe('iframe-triceps')">
+        <div class="flex gap-4"  onclick="mostrarIframe('iframe-triceps'); esconderIframe('iframe-costas', 'iframe-peito', 'iframe-biceps', 'iframe-abdomen', 'iframe-perna', 'iframe-ombro')">
           <span class="text-2xl">↓</span>
           <span class="font-k2d text-2xl">Triceps</span>
         </div>
@@ -64,7 +64,7 @@
         
       </div>
       <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4">
-        <div class="flex gap-4"  onmouseover="mostrarIframe('iframe-abdomen')" onmouseout="esconderIframe('iframe-abdomen')">
+        <div class="flex gap-4"  onclick="mostrarIframe('iframe-abdomen'); esconderIframe('iframe-costas', 'iframe-peito', 'iframe-biceps', 'iframe-triceps', 'iframe-perna', 'iframe-ombro')">
           <span class="text-2xl">↓</span>
           <span class="font-k2d text-2xl">Abdomen</span>
         </div>
@@ -73,7 +73,7 @@
         </div>
       </div>
       <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4">
-        <div class="flex gap-4"  onmouseover="mostrarIframe('iframe-perna')" onmouseout="esconderIframe('iframe-perna')">
+        <div class="flex gap-4"  onclick="mostrarIframe('iframe-perna'); esconderIframe('iframe-costas', 'iframe-peito', 'iframe-biceps', 'iframe-triceps', 'iframe-abdomen', 'iframe-ombro')">
           <span class="text-2xl">↓</span>
           <span class="font-k2d text-2xl">Perna</span>
         </div>
@@ -84,7 +84,7 @@
         
       </div>
       <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4">
-        <div class="flex gap-4"  onmouseover="mostrarIframe('iframe-ombro')" onmouseout="esconderIframe('iframe-ombro')">
+        <div class="flex gap-4"  onclick="mostrarIframe('iframe-ombro'); esconderIframe('iframe-costas', 'iframe-peito', 'iframe-biceps', 'iframe-triceps', 'iframe-abdomen', 'iframe-perna')">
           <span class="text-2xl">↓</span>
           <span class="font-k2d text-2xl">Ombro</span>
         </div>

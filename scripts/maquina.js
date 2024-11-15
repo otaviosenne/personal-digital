@@ -5,9 +5,14 @@ function mostrarIframe(id) {
     document.getElementById(id).classList.add('flex');
   }
 
-  function esconderIframe(id) {
-    document.getElementById(id).classList.remove('visible');
-    document.getElementById(id).classList.remove('flex');
-    document.getElementById(id).classList.add('invisible');
-    document.getElementById(id).classList.add('hidden');
-  }
+  function esconderIframe(...ids) {
+    ids.forEach(id => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.classList.remove('visible');
+            element.classList.remove('flex');
+            element.classList.add('invisible');
+            element.classList.add('hidden');
+        }
+    });
+}
