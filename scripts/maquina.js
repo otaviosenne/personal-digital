@@ -1,3 +1,16 @@
+function alternarIframe(id, idsParaEsconder) {
+  const element = document.getElementById(id);
+  
+  if (element.classList.contains('hidden') || element.classList.contains('invisible')) {
+      // Se o elemento está escondido, mostra ele
+      mostrarIframe(id);
+      esconderIframe(...idsParaEsconder);
+  } else {
+      // Se o elemento está visível, esconde ele
+      esconderIframe(id);
+  }
+}
+
 function mostrarIframe(id) {
     document.getElementById(id).classList.remove('invisible');
     document.getElementById(id).classList.remove('hidden');

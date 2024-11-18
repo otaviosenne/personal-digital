@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Livre</title>
+    <link href="../style/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-zinc-800 text-white flex flex-col items-center gap-4 p-10">
+    <a class="font-k2d font-bold text-2xl text-Personal-50 border-2 border-Personal-50 p-2 rounded-2xl" href="../index.html">SEU PERSONAL DIGITAL</a>
+
+    <h1 class="font-k2d text-3xl font-bold text-laranja1 m-8">LIVRE</h1>
+
+    <!-- Subtítulo -->
+    <h2 class="text-lg font-semibold text-white mb-4 w-full">POSSÍVEIS EXERCÍCIOS:</h2>
+    
+    <!-- Lista de Exercícios com Divisores -->
+    <div class="space-y-4 w-full">
+      <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4" >
+        <div class="flex gap-4"  onclick="mostrarIframe('iframe-costas'); esconderIframe('iframe-trapezio', 'iframe-biceps', 'iframe-triceps', 'iframe-abdomen', 'iframe-perna', 'iframe-ombro')" >
+          <span class="text-2xl">↓</span>
+          <span class="font-k2d text-2xl">Costas</span>
+        </div>
+        <div class="flex-col duration-200 invisible hidden gap-6" id="iframe-costas">
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/vrKED7Ii-ts?si=LEgA7B0mnPKm14_N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        </div>
+      <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4">
+        <div class="flex gap-4"  onclick="mostrarIframe('iframe-trapezio'); esconderIframe('iframe-costas', 'iframe-biceps', 'iframe-triceps', 'iframe-abdomen', 'iframe-perna', 'iframe-ombro')">
+          <span class="text-2xl">↓</span>
+          <span class="font-k2d text-2xl">Trapezio</span>
+        </div>
+        <div class="flex-col duration-200 invisible hidden gap-6" id="iframe-trapezio">
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/ctOKS-tlBVo?si=c1dOH1s9EPgWJXbf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      </div>
+      <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4">
+        <div class="flex gap-4"  onclick="mostrarIframe('iframe-biceps'); esconderIframe('iframe-costas', 'iframe-trapezio', 'iframe-triceps', 'iframe-abdomen', 'iframe-perna', 'iframe-ombro')">
+          <span class="text-2xl">↓</span>
+          <span class="font-k2d text-2xl">Biceps</span>
+        </div>
+        <div class="flex-col duration-200 invisible hidden gap-6" id="iframe-biceps">
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/ZoUKm7rULxs?si=JDUeq8w5VKiQ0SEt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/xYhJltVBU98?si=xNoCwtgqpnf-Tgzc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/qR-cDJRO-0A?si=R2rRKVuE_5vtmw7b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/X_DHogmZ0Ms?si=8FqOJS92o_s6a6WA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4">
+        <div class="flex gap-4"  onclick="mostrarIframe('iframe-triceps'); esconderIframe('iframe-costas', 'iframe-trapezio', 'iframe-biceps', 'iframe-abdomen', 'iframe-perna', 'iframe-ombro')">
+          <span class="text-2xl">↓</span>
+          <span class="font-k2d text-2xl">Triceps</span>
+        </div>
+        <div class="flex-col duration-200 invisible hidden gap-6" id="iframe-triceps">
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/h4TQgJJoSXA?si=kHPDLr4_9uRRP1h2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/XpdLAg6TjAI?si=OaEAwyhkldMU3tKP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/T2ii2qW9v-I?si=bQ9YNk0Wwav42Gpt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      
+        </div>
+        
+      </div>
+      <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4">
+        <div class="flex gap-4"  onclick="mostrarIframe('iframe-abdomen'); esconderIframe('iframe-costas', 'iframe-trapezio', 'iframe-biceps', 'iframe-triceps', 'iframe-perna', 'iframe-ombro')">
+          <span class="text-2xl">↓</span>
+          <span class="font-k2d text-2xl">Abdomen</span>
+        </div>
+        <div class="flex-col duration-200 invisible hidden gap-6" id="iframe-abdomen">
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/v1E5HlWU388?si=24As7o4LtfNfa-Pw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/EiRj3kUKndM?si=Z1QAwrAfQIqzCbIZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="458" height="815" src="https://www.youtube.com/embed/m7q9PPjaxp8" title="Abdominal Infra 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/0pWLpqB7cvw?si=SZ3-iHwcQzO4pN5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/TrDBxjG4q4c?si=VeHOPsw3UpJOk1tL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/h6AOqyZePKM?si=bmj_HVsWqzavHrrC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4">
+        <div class="flex gap-4"  onclick="mostrarIframe('iframe-perna'); esconderIframe('iframe-costas', 'iframe-trapezio', 'iframe-biceps', 'iframe-triceps', 'iframe-abdomen', 'iframe-ombro')">
+          <span class="text-2xl">↓</span>
+          <span class="font-k2d text-2xl">Perna</span>
+        </div>
+        <div class="flex-col duration-200 invisible hidden gap-6" id="iframe-perna">
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/NDdBkls_VVI?si=sElp2iIoV9hl38v9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/mqvC0a4aerk?si=StKMDUWA7E2LgVxt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/LTMPxSOnWp0?si=0AENyi8XZ4njZlZn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/sTF1bD-Cncw?si=4nE3JkpnDMFaRfFz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
+      </div>
+      <div class="flex flex-col py-3 border-t-2 border-Personal-50 gap-4">
+        <div class="flex gap-4"  onclick="mostrarIframe('iframe-ombro'); esconderIframe('iframe-costas', 'iframe-trapezio', 'iframe-biceps', 'iframe-triceps', 'iframe-abdomen', 'iframe-perna')">
+          <span class="text-2xl">↓</span>
+          <span class="font-k2d text-2xl">Ombro</span>
+        </div>
+        <div class="flex-col duration-200 invisible hidden gap-6" id="iframe-ombro">
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/f3DyjSz_JBE?si=I3Vsin4QgeAubhEN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/h_gkwllBlJo?si=pCpxKmDXFC_q5BzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/IxAHiEr7Fwg?si=CxdGDxL5uHtL0Tkj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="w-full max-w-96 h-screen rounded-2xl" src="https://www.youtube.com/embed/W5o0Fd3b4y4?si=q-yG6JbtwB7Ctlwt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <script src="../scripts/maquina.js"></script>
+
+  </body>
+</html>   
